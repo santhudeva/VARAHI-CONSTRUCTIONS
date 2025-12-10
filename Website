@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARAHI CONSTRUCTION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>VARAHI CONSTRUCTION</h1>
+        <p>Quality. Integrity. Innovation.</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Building Strong Foundations for the Future</h2>
+        <p>We deliver high-standard civil construction solutions across residential, commercial & industrial sectors.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>
+            VARAHI CONSTRUCTION is a leading Civil Construction company committed to delivering quality infrastructure 
+            with engineering excellence. We specialize in planning, structural development, project management, 
+            and turnkey execution of small to large scale projects.
+        </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section dark">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Residential Construction</h3>
+                <p>Homes, villas, apartments with superior finishes & durability.</p>
+            </div>
+            <div class="card">
+                <h3>Commercial Projects</h3>
+                <p>Offices, complexes, corporate buildings with modern standards.</p>
+            </div>
+            <div class="card">
+                <h3>Industrial Projects</h3>
+                <p>Warehouses, plants & industrial infrastructure development.</p>
+            </div>
+            <div class="card">
+                <h3>Road & Infrastructure</h3>
+                <p>Highway, drainage, water systems & government civil projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2>Recent Projects</h2>
+        <ul>
+            <li>Residential Housing Development – Hyderabad</li>
+            <li>Commercial Building Complex – Bangalore</li>
+            <li>Road Development Project – Telangana Region</li>
+            <li>Industrial Site Foundation Works – Pune</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section dark">
+        <h2>Contact Us</h2>
+        <p>We’re ready to take up your next project.</p>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Phone Number" required>
+            <textarea placeholder="Project Details"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 VARAHI CONSTRUCTION | All Rights Reserved
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+header {
+    background: #202A44;
+    color: #fff;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #F5C518;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1581091870627-3d28c327286f') center/cover no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    padding: 0 20px;
+}
+
+.btn {
+    background: #F5C518;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 12%;
+    text-align: center;
+}
+
+.dark {
+    background: #F0F0F0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 12px 25px;
+    background: #202A44;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #202A44;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("VARAHI CONSTRUCTION website loaded successfully!");
+});
